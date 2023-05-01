@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Aladin&family=Domine&family=Marck+Script&family=Signika:wght@500&family=Ubuntu&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+        integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+        integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/2ecbee48c8.js" crossorigin="anonymous"></script>
+    <script>
+        window.onload = function () {
+            document.getElementById('loader').style.display = "none";
+            document.getElementById('content').style.display = "block";
+        };
+    </script>
+
+    <style>
+        #content {
+            display: none;
+        }
+
+        /*#content img{width:100%;}*/
+        #loader {
+            position: absolute;
+            margin: auto;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            width: 80%;
+            height: 80vh;
+        }
+
+        #loader img {
+            width: 400px;
+        }
+
+        #timeincrease {
+            display: none;
+        }
+
+        video::-webkit-media-controls {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="loader">
+        <video height="100%" width="100%" autoplay loop muted controls src="earth.gif"></video>
+    </div>
+    <div id="content">
+
+
+
+
+        <h1></h1>
+        <div id="timeincrease">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/-QKgzYTPSEo"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/-QKgzYTPSEo"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <header>
+        <nav class="navbar">
+            <img class="logo" src="logo.png">
+            <ul>
+
+
+                <li><a href="#footer">CONTACT</a></li>
+                <li><a href="#review">REVIEW SECTION</a></li>
+                <li><a href="#recommendations">BLOGS</a></li>
+                <li><a href="#best">VISION</a></li>
+                <li><a href="#intro">HOME </a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="carouselExampleIndicators" class="carousel slide">
+
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+
+            <div class="carousel-item active">
+                <img src="nature2.png" class="d-block w-100 caro" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="ewaste.png" class="d-block w-100 caro" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="REUSE.jpg" class="d-block w-100 caro" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <div class="about">
+        <div class="flex-parent-element">
+            <div class="flex-child-element magenta">
+                <h3 style="font-weight: bold;
+                color: rgb(17, 241, 13);
+                font-size: 50px;
+                margin-top: 10px;
+                text-align: center;
+                font-family: 'Domine', serif;
+  font-family: 'Marck Script', cursive;
+  font-family: 'Signika', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+  
+                margin-bottom: 20px;">ABOUT US </h3>
+                <p><i>Remine India Private Limited is a Private incorporated on 06 December 2022. It is classified as
+                        Non-govt company and is registered at Registrar of Companies, Uttarakhand.<br><br> Its
+                        authorized share
+                        capital is Rs. 1,000,000 and its paid up capital is Rs. 1,000,000.<br><br> It is inolved in
+                        Recycling of
+                        metal waste and scrap [from rejected aluminum, utensil, containers and other used metallic items
+                        etc. Collection of metal waste and scrap for and other used metallic items etc. Collection of
+                        metal
+                        waste and scrap for recycling is included in 51498.]</i></p>
+            </div>
+            <div class="flex-child-element green"><img class="image" style="padding-left:60px" src="earth.gif">
+            </div>
+        </div>
+        <div class="vid">
+            <video preload="auto" autoplay loop muted="muted" style="width:100%;height:100%;padding:0px;background #fff;
+            font-family: Montserrat, sans-serif;
+            font-size: 24px;
+            line-height: 30px;
+            font-weight: bold;
+            color: #44cc0a;
+            padding: 40px;
+            box-shadow:
+                inset #278502 0 0 0 5px, 
+              inset #12b054 0 0 0 1px, 
+              inset #20de53 0 0 0 10px, 
+              inset #2ff75d 0 0 0 11px, 
+              inset #9dff68 0 0 0 16px, 
+              inset #b6ff7f 0 0 0 17px, 
+              inset #c3f9a6 0 0 0 21px, 
+              inset #c8f6d8 0 0 0 22px;
+            text-shadow: 3px 3px 1px #bfecf7;">
+                <source src="process.mp4" type="video/mp4">
+
+
+            </video>
+        </div>
+    </div>
+
+    <div class="services">
+
+        <!--<div class="typewriter">
+
+            <h1><strong>MAKE OUR PLANET A <span style= color:darkblue>GREENER </span>PLACE TO LIVE</strong></h1>
+          </div>-->
+
+        <h2 class='pop-outin'><strong>MAKE OUR PLANET A GREENER PLACE TO LIVE</strong></h2>
+
+
+        <div class="ticker-wrap">
+            <div class="ticker">
+                <div class="ticker__item">Recycle your e-waste.</div>
+                <div class="ticker__item">Recycle your e-waste.</div>
+                <div class="ticker__item">Recycle your e-waste.</div>
+                <div class="ticker__item">Recycle your e-waste.</div>
+                <div class="ticker__item">Recycle your e-waste.</div>
+                <div class="ticker__item">Recycle your e-waste.</div>
+                <div class="ticker__item">Recycle your e-waste.</div>
+                <div class="ticker__item">Recycle your e-waste.</div>
+                <div class="ticker__item">Recycle your e-waste.</div>
+                <div class="ticker__item">Recycle your e-waste.</div>
+                <div class="ticker__item">Recycle your e-waste.</div>
+                <div class="ticker__item">Recycle your e-waste.</div>
+                <div class="ticker__item">Recycle your e-waste.</div>
+                <div class="ticker__item">Recycle your e-waste.</div>
+                <div class="ticker__item">Recycle your e-waste.</div>
+                <div class="ticker__item">Recycle your e-waste.</div>
+                <div class="ticker__item">Recycle your e-waste.</div>
+                <div class="ticker__item">Recycle your e-waste.</div>
+                <div class="ticker__item">Recycle your e-waste.</div>
+                <div class="ticker__item">Recycle your e-waste.</div>
+                <div class="ticker__item">Recycle your e-waste.</div>
+                <div class="ticker__item">Recycle your e-waste.</div>
+                <div class="ticker__item">Recycle your e-waste.</div>
+                <div class="ticker__item">Recycle your e-waste.</div>
+
+
+            </div>
+        </div>
+
+        <br><br><br>
+        <div>
+            <h3 class="service" style="font-weight: bold;
+                color: rgb(50, 0, 165);
+                font-size: 50px;
+                
+               
+                font-family: 'Aladin', cursive;
+                font-family: 'Domine', serif;
+                 font-family: 'Marck Script', cursive;
+                 font-family: 'Signika', sans-serif;
+                 font-family: 'Ubuntu', sans-serif;
+  
+                font-weight: bold;
+      
+      
+                margin-top: 25px;
+                text-align: center;
+                margin-bottom: 20px;
+                text-shadow: 3px 3px 20px #11d5d2,
+                 -2px 1px 30px #07728150;">OUR SERVICES </h3>
+        </div>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="DATA (1).png" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="IT.png" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="logistics.png" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="electronic.png" />
+                </div>
+
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+        </div>
+
+    </div>
+    <div id="numbg">
+        <div class="numbers">
+            <h3 class="service" style="font-weight: bold;
+                color: aqua;
+                font-size: 50px;
+                
+               
+                font-family: 'Aladin', cursive;
+                font-family: 'Domine', serif;
+                 font-family: 'Marck Script', cursive;
+                 font-family: 'Signika', sans-serif;
+                 font-family: 'Ubuntu', sans-serif;
+  
+                font-weight: bold;
+      
+                padding-top:25px;
+                margin-top: 0;
+                text-align: center;
+                margin-bottom: 20px;
+                text-shadow: 3px 3px 20px #d5fffe,
+                 -2px 1px 30px #ffffff;">OUR ACHIEVED MILESTONES </h3>
+            <div class="statistic-area">
+                <div class="sts-overlay section-padding">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-3 col-sm-6 col-xs-12">
+                                <div class="single-count count-one xs-mb-30 sm-mb-30">
+                                    <i class="fa fa-clock-o"></i>
+                                    <h2 class="count">9875</h2>
+                                    <p>Hours of work</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-xs-12">
+                                <div class="single-count count-two xs-mb-30 sm-mb-30">
+                                    <i class="fas fa-recycle"></i>
+                                    <h2 class="count">7685678</h2>
+                                    <p> eWaste Recycled </p>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-xs-12">
+                                <div class="single-count count-three xs-mb-30">
+                                    <i class="fa fa-users"></i>
+                                    <h2 class="count">20000</h2>
+                                    <p>Happy Customers</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-xs-12">
+                                <div class="single-count count-four">
+                                    <i class="fa fa-trophy"></i>
+                                    <h2 class="count">750</h2>
+                                    <p>Business Awards</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="pics">
+        <h3 style="font-weight: bold;
+          color: rgb(17, 241, 13);
+          font-size: 50px;
+          margin-top: 10px;
+          text-align: center;
+          font-family: 'Domine', serif;
+           font-family: 'Marck Script', cursive;
+     font-family: 'Signika', sans-serif;
+           font-family: 'Ubuntu', sans-serif;
+      
+          margin-bottom: 20px;">PHOTO GALLERY </h3>
+        <div class="rows">
+
+
+            <div class="column">
+                <img src="one.jpg" style="width:100%">
+                <img src="two.jpeg" style="width:100%">
+                <img src="three.jpg" style="width:100%">
+
+            </div>
+            <div class="column">
+                <img src="four.jpeg" style="width:100%">
+                <img src="five.jpg" style="width:100%">
+                <img src="six.jpg" style="width:100%">
+
+            </div>
+            <div class="column">
+                <img src="seven.webp" style="width:100%">
+                <img src="eight.jpeg" style="width:100%">
+                <img src="nine.jpg" style="width:100%">
+
+
+            </div>
+        </div>
+    </div>
+    <div id="formsection">
+        <div class="form">
+            <form>
+                <img src="contact.gif" style="height:150px;width:150px; margin-top:15px ;border-radius:50%">
+                <em>
+                    <p class="lastpara">GET IN TOUCH WITH US!!</p>
+                </em>
+
+                <i class="fa-solid fa-user icons"></i><input type="text" placeholder="Enter your name here......."
+                    class="input"><br>
+                <i class="fa-solid fa-envelope icons"></i><input type="email"
+                    placeholder="Enter your email-id here......" class="input"><br>
+                <textarea class="input2" rows="4" cols="50" placeholder="Type your message here"></textarea><br>
+                <button class="formsubmit">SUBMIT</button>
+            </form>
+        </div>
+    </div>
+    <div id="footer">
+        <div class="foot">
+            <div class="foot1">
+                <img class="logo" src="logo.png"><br><br><br><br>
+                <p class="info">Remine eWaste Mangement Limited provides comprehensive, complete and responsible recycling solutions<br><br>While carrying out our responsibilities, we ensure
+                that the  E-Waste Management Rules introduced by the Government of India in 2016 is strictly followed</p>
+                <br><br>
+                <br>
+                <p class="lastpara2"><i class="fa-solid fa-copyright"></i>&nbsp &nbsp 2020 Company- ALL RIGHTS RESERVED
+                </p>
+
+            </div>
+            <div class="foot2">
+                <p class="listfoot"><a href="#intro">BACK TO TOP</a></p><br>
+                <p class="listfoot">TERMS AND CONDITIONS</p><br>
+                <p class="listfoot">PRIVACY POLICY</p><br>
+                <p class="listfoot">ABOUT US</p><br>
+                <p class="listfoot">COPYRIGHT INFORMATION</p>
+
+            </div>
+            <div class="foot3">
+
+                <p>CONTACT US</p> <br>
+                <a href="https://facebook.com" target="fb"> <i class="fa-brands fa-facebook"></i><br>
+                <a href="https://instagram.com" target="insta"><i class="fa-brands fa-instagram-square"></i></a><br>
+                <a href="https://twitter.com" target="twitter"><i class="fa-brands fa-twitter"></i></a><br>
+                <a href="https://in.linkedin.com" target="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+
+            </div>
+
+
+        </div>
+        <br><br><br>
+    </div>
+
+
+
+   
+
+
+    <script>
+        function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+        }
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            slidesPerView: "auto",
+            coverflowEffect: {
+                rotate: 50,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: true,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+    <script>
+        const counters = document.querySelectorAll(".count");
+        const speed = 200;
+
+        counters.forEach((counter) => {
+            const updateCount = () => {
+                const target = parseInt(+counter.getAttribute("data-target"));
+                const count = parseInt(+counter.innerText);
+                const increment = Math.trunc(target / speed);
+                console.log(increment);
+
+                if (count < target) {
+                    counter.innerText = count + increment;
+                    setTimeout(updateCount, 1);
+                } else {
+                    count.innerText = target;
+                }
+            };
+            updateCount();
+        });
+
+    </script>
+
+
+
+</body>
+
+</html>
