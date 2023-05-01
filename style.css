@@ -70,8 +70,8 @@ font-family: 'Ubuntu', sans-serif;
 }
 
 .navbar a:hover {
-    color: aqua;
-    border-bottom: 2px solid aqua;
+    color: white;
+    border-bottom: 2px solid white;
 
 }
 .homecontain{
